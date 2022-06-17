@@ -234,7 +234,7 @@ const OpNamesDisplay = (props: {
 
   const graphPath = workspacePathFromAddress(
     repoAddress,
-    `/graphs/${__ASSET_JOB_PREFIX}/${graphName}/`,
+    `/graphs/${assetNode.jobNames[0]}/${graphName}/`,
   );
 
   return (
